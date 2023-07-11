@@ -15,17 +15,18 @@ The package contains the nodes and the simulation environment for controlling a 
 - README.md: This file containing information about the package
 - rt2_scene.ttt: Coppelia sim file with the scene to simulate
 
-# HOT TO RUN:
+# HOW TO RUN:
 
-First of all, make sure to source your workspace.
+First of all, make sure to source the workspace with the right ROS distro.
 To launch the simulation with Gazebo, please run:
 ```
 roslaunch rt2_assignment1 sim.launch
 ```
+In the lauch folder, there is anothere file (Coppelia.launch) that won't open the Gazebo environment.
+If you desire to open this lighter simulation, just run:
 
-To launch the simulation with Coppelia, please run:
 ```
 roslaunch rt2_assignment1 coppelia.launch
 ```
-This version won't open Gazebo simulator.
-Thus, open Coppeliasim.sh in another shell and load the rt2_scene.ttt present in the main brach.
+In both cases, using either of the lauch files, the regular one or the slimmer one, you have to open the Coppelia.sh in another folder e loading
+the "rt2_scene.ttt" file present in this brach.
