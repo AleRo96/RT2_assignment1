@@ -28,5 +28,5 @@ If you desire to open this lighter simulation, just run:
 ```
 roslaunch rt2_assignment1 coppelia.launch
 ```
-In both cases, using either of the lauch files, the regular one or the slimmer one, you have to open the Coppelia.sh in another folder e loading
+In both cases, using either of the lauch files, the regular one or the slimmer one, you have to open the Coppelia.sh in another shell e loading
 the "rt2_scene.ttt" file present in this brach.
