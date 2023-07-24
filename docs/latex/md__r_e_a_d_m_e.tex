@@ -1,0 +1,31 @@
+The package contains the nodes and the simulation environment for controlling a mobile robot in the Gazebo and Coppelia simulation environment.
+
+
+\begin{DoxyItemize}
+\item action\+: Folder which contains the action\textquotesingle{}s structure.
+\item docs\+: Folder which contains the documentation generated using doxygen.
+\item launch\+: Folder which contains \char`\"{}sim.\+launch\char`\"{} and \char`\"{}sim\+\_\+coppelia.\+launch\char`\"{} file.
+\item notebooks\+: Folder which contains the file \char`\"{}\+Widget\+Robot\+Control.\+ipynb\char`\"{}.
+\item scripts\+: Folder which contains the python files \char`\"{}go\+\_\+to\+\_\+point.\+py\char`\"{} and \char`\"{}user\+\_\+interface.\+py\char`\"{}.
+\item src\+: Folder which contains the cpp files \char`\"{}position\+\_\+service.\+cpp\char`\"{} and \char`\"{}state\+\_\+machine.\+cpp\char`\"{}.
+\item srv\+: Folder which contains the messages used by the servers.
+\item urdf\+: folder which contain a file about the robot information.
+\item C\+Mkelists.\+txt\+: File to build the workspace
+\item index.\+html
+\item package.\+xml
+\item R\+E\+A\+D\+M\+E.\+md\+: This file containing information about the package
+\item rt2\+\_\+scene.\+ttt\+: Coppelia sim file with the scene to simulate
+\end{DoxyItemize}\hypertarget{md__r_e_a_d_m_e_autotoc_md1}{}\doxysection{H\+O\+T T\+O R\+U\+N\+:}\label{md__r_e_a_d_m_e_autotoc_md1}
+First of all, make sure to source your workspace. To launch the simulation with Gazebo, please run\+: 
+\begin{DoxyCode}{0}
+\DoxyCodeLine{roslaunch rt2\_assignment1 sim.launch}
+\end{DoxyCode}
+
+
+To launch the simulation with Coppelia, please run\+: 
+\begin{DoxyCode}{0}
+\DoxyCodeLine{roslaunch rt2\_assignment1 coppelia.launch}
+\end{DoxyCode}
+
+
+This version won\textquotesingle{}t open Gazebo simulator. Thus, open Coppeliasim.\+sh in another shell and load the rt2\+\_\+scene.\+ttt present in the main brach. 
