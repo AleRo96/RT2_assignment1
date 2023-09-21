@@ -1,19 +1,14 @@
 # First And Second Assignment of the Research Track 2 course (Robotics Engineering / JEMARO, Unige)
 The package contains the nodes and the simulation environment for controlling a mobile robot in the Gazebo and Coppelia simulation environment.
 
-- action: Folder which contains the action's structure.
 - docs: Folder which contains the documentation generated using doxygen.
-- launch: Folder which contains "sim.launch" and "sim_coppelia.launch" file. 
-- notebooks: Folder which contains the file "WidgetRobotControl.ipynb".
-- scripts: Folder which contains the python files "go_to_point.py" and "user_interface.py".
-- src: Folder which contains the cpp files "position_service.cpp" and "state_machine.cpp".
+- launch: Folder which contains "launch.py" file. 
+- src: Folder which contains the cpp files "randomserver.cpp" and "computer.cpp".
 - srv: Folder which contains the messages used by the servers. 
-- urdf: folder which contain a file about the robot information.
-- CMkelists.txt: File to build the workspace
-- index.html
+- CMakelists.txt: File to build the workspace
 - package.xml
+- mapping_rule.yaml: File which contains the mapping rule for the bridge between ros1 and ros2
 - README.md: This file containing information about the package
-- rt2_scene.ttt: Coppelia sim file with the scene to simulate
 
 # HOW TO RUN:
 
