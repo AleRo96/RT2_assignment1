@@ -12,16 +12,18 @@ The package contains the nodes and the simulation environment for controlling a 
 
 # HOW TO RUN:
 
-First of all, make sure to source the workspace with the right ROS distro.
-To launch the simulation with Gazebo, please run:
+First of all, you need to build both the ros1 workspace and ros2 workspace.
+Once you have done that, you can source them using the right ROS distros.
+
+In a shell, source the ROS 1 distro and launch the simulation with Gazebo:
 ```
 roslaunch rt2_assignment1 sim.launch
 ```
-In the lauch folder, there is anothere file (Coppelia.launch) that won't open the Gazebo environment.
-If you desire to open this lighter simulation, just run:
-
+In a second shell, source both the distros (ROS12.sh) by using the bridge. Then run:
 ```
-roslaunch rt2_assignment1 coppelia.launch
+ros2 run ros1_bridge dynamic_brdge
 ```
-In both cases, using either of the lauch files, the regular one or the slimmer one, you have to open the Coppelia.sh in another shell e loading
-the "rt2_scene.ttt" file present in this brach.
+In a third shell, source the ROS 2 distro and run:
+```
+ros2 launch rt2_assignment1_ros2 launch.py
+```
