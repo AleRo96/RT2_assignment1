@@ -12,7 +12,7 @@ The package contains the nodes and the simulation environment for controlling a 
 
 # HOW TO RUN:
 
-First of all, you need to build both the ros1 workspace and ros2 workspace.\\
+First of all, you need to build both the ros1 workspace and ros2 workspace.
 Once you have done that, you can source them using the right ROS distros.
 It's mandatory to have installed the ros1_bridge package in your ROS 2 workspace.
 
