@@ -1,5 +1,5 @@
 # First And Second Assignment of the Research Track 2 course (Robotics Engineering / JEMARO, Unige)
-The package contains the nodes and the simulation environment for controlling a mobile robot in the Gazebo and Coppelia simulation environment.
+The package contains the nodes and the simulation environment for controlling a mobile robot in the Gazebo and Coppelia simulation environment through the rosbridge communication.
 
 - docs: Folder which contains the documentation generated using doxygen.
 - launch: Folder which contains "launch.py" file. 
