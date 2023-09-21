@@ -14,6 +14,7 @@ The package contains the nodes and the simulation environment for controlling a 
 
 First of all, you need to build both the ros1 workspace and ros2 workspace.
 Once you have done that, you can source them using the right ROS distros.
+It's mandatory to have installed the ros1_bridge package in your ROS 2 workspace.
 
 In a shell, source the ROS 1 distro and launch the simulation with Gazebo:
 ```
